@@ -1,0 +1,19 @@
+declarar var1
+declarar var2
+declarar var2
+línea #5: Error léxico: cadena desconocida: &!@
+línea #5: syntax error, unexpected ';', expecting ID
+leer
+declarar total
+línea #8: Error léxico: constante inválida inválido: 32z
+inversión
+multiplicación
+suma
+asignación
+línea #9: Error léxico: identificador inválido: var2&2@1
+línea #9: syntax error, unexpected <-
+división
+escribir
+Errores de compilación
+Errors sintácticos: 2 - Errores léxicos: 3
+

@@ -1,0 +1,21 @@
+Token: Programa
+Token: Declarar
+Token: Identificador	lexema: var1
+Token: ';'
+Token: Leer
+Token: '('
+Token: Identificador	lexema: var1
+Token: ')'
+Token: ';'
+Token: Declarar
+Token: Identificador	lexema: total
+Token: Asignación
+Token: Identificador	lexema: var1
+Token: '+'
+Token: Constante	lexema: 2
+Token: ';'
+Token: Identificador	lexema: var1
+Token: Declarar
+Token: ';'
+Token: Fin-Prog
+Token: Fin de Archivo

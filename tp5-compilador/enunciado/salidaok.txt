@@ -1,0 +1,24 @@
+Load rtlib,
+Reserve var1,4
+Reserve var2,4
+Read var1,Integer
+Read var2,Integer
+Reserve total,4
+Reserve Temp#1,4
+NEG var2,,Temp#1
+Reserve Temp#2,4
+MUL 32,Temp#1,Temp#2
+Reserve Temp#3,4
+ADD var1,Temp#2,Temp#3
+Store Temp#3,total
+Reserve Temp#4,4
+ADD 512,4,Temp#4
+Reserve Temp#5,4
+MUL 2,Temp#4,Temp#5
+Store Temp#5,var2
+Reserve Temp#6,4
+DIV total,2,Temp#6
+Write Temp#6,Integer
+Exit ,
+Compilación terminada con éxito
+Errors sintácticos: 0 - Errores léxicos: 0 - Errores Semánticos: 0

@@ -1,0 +1,17 @@
+Load rtlib,
+Reserve var1,4
+Reserve var2,4
+línea #4: Error semántico: identificador var2 ya declarado
+línea #5: Error léxico: cadena desconocida: &!@
+Read var1,Integer
+Read var2,Integer
+Reserve total,4
+línea #8: Error léxico: constante inválida inválido: 32z
+línea #8: Error semántico: identificador var5 NO declarado
+línea #9: Error léxico: identificador inválido: var2&2@1
+Reserve Temp#1,4
+DIV total,2,Temp#1
+Write Temp#1,Integer
+Exit ,
+Errores de compilación
+Errors sintácticos: 0 - Errores léxicos: 3 - Errores Semánticos: 2

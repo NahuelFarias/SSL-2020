@@ -1,0 +1,9 @@
+programa
+	declarar var1;
+	declarar var2;
+	leer (var1, var2);
+	declarar total; ##comentario
+	total <- var1 + 32 * -var2;
+	var2 <- 2 * (512 + 4) ;
+	escribir (total/2);
+fin-prog

@@ -1,0 +1,6 @@
+programa
+     declarar var1;
+     leer(var1);
+     declarar total -> var1 + 2;
+     declarar var1;
+fin-prog 

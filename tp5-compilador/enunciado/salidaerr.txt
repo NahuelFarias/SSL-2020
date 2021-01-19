@@ -1,0 +1,15 @@
+Load rtlib,
+línea #3: syntax error, unexpected DECLARAR, expecting ';'
+línea #4: Error semántico: identificador var1 NO declarado
+línea #5: Error léxico: cadena desconocida: &!@
+Reserve var2,4
+Reserve total,4
+línea #8: Error semántico: identificador var1 NO declarado
+línea #8: Error léxico: constante inválida inválido: 32z
+línea #9: Error léxico: identificador inválido: var2&2@1
+Reserve Temp#1,4
+DIV total,2,Temp#1
+Write Temp#1,Integer
+Exit ,
+Errores de compilación
+Errors sintácticos: 1 - Errores léxicos: 3 - Errores Semánticos: 2
