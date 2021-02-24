@@ -1,5 +1,7 @@
 # Elementary scanner
+
 ## Objectives
+
 We will be programming a deterministic finite automaton which will be able to recognize 3 different types of sublanguages:
 
 1. Integers: these strings are formed by decimal digits only.
@@ -14,12 +16,16 @@ In case of identifying any string formed by these, it must be considered as an e
 The program must analyze the input (we'll be redirecting the textfile through stdin) and inform what has come across. It must then inform the total number of lexemes that were found by each lexical category.
 
 ### Example
+
 Given the input:
+
 ```
 total 123 Mesa34 @?¡<>@89640 SILLA56 *+%
 ,#	bien 571##$%
 ```
+
 The output should be:
+
 ```
 identifier
 integer
@@ -42,14 +48,19 @@ integers 3
 hashes 3
 errors 4
 ```
+
 ## Note
+
 Just to clarify, identified lexemes are:
+
 ```
 Identifiers: total, Mesa34, SILLA56, bien
 Integers: 123, 89640, 571
 Errors: @?¡<>@ *+% , $%
 ```
+
 ## Remark
+
 The program should be at least divided by 3 files: `main.c`, `scanner.c` & `scanner.h`
 
 `main.c` must invoke the scanner, inform the tokens found & accumulate the amounts of lexemes by their lexical categories which should be informed at the end.
@@ -59,13 +70,19 @@ The program should be at least divided by 3 files: `main.c`, `scanner.c` & `scan
 Other files can be added as desired. Transition table must be documented (textfile or spreadsheet). The program must compile correctly by the C11/C17 standard and must be strictly attached to it. This means, the program shouldn't contain operative system dependent code.
 
 ---
+
 ## Compile
+
 ```
 gcc -o scanner *.c
 ```
+
 ## Run
+
 ```
 ./scanner <input.txt
 ```
+
 ---
-[< Back to index](https://github.com/jlsuh/TP-SSL-K2004) - [Next assignment >](https://github.com/jlsuh/TP-SSL-K2004/tree/master/assignment2-mini-language-bnf)
+
+[< Back to index](https://github.com/NahuelFarias/SSL-2020) - [Next assignment >](https://github.com/NahuelFarias/SSL-2020/tree/main/assignment2-mini-language-bnf)
