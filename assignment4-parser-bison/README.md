@@ -29,7 +29,7 @@ Based on the syntactical grammatic made in assignment 2 and the implementation o
 
 ---
 
-## Comipile
+## Compile
 
 ```
 flex scanner.l
