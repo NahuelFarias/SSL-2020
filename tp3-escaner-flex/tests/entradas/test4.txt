@@ -1,6 +1,0 @@
-programa
-     declarar var1;
-     leer(var1);
-     declarar total <- var1 + 2;
-     var1 declarar;
-fin-prog

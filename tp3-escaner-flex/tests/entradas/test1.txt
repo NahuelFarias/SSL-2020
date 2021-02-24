@@ -1,5 +1,0 @@
-programa
-    dclarar var;
-    var<-2*34-2345/2;
-    escribir(total/2);
-fin-prog
